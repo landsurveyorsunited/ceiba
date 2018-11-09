@@ -1,0 +1,913 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_003{font-family:"Calibri",serif;font-size:48.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:"Calibri",serif;font-size:48.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Calibri",serif;font-size:36.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Calibri",serif;font-size:36.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:11.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:11.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Times,serif;font-size:16.0px;color:rgb(196,88,17);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Times,serif;font-size:16.0px;color:rgb(196,88,17);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:"Calibri Bold",serif;font-size:8.1px;color:rgb(126,95,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:"Calibri Bold",serif;font-size:8.1px;color:rgb(126,95,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:16.0px;color:rgb(196,88,17);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:16.0px;color:rgb(196,88,17);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Times,serif;font-size:14.1px;color:rgb(196,88,17);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Times,serif;font-size:14.1px;color:rgb(196,88,17);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Times,serif;font-size:14.1px;color:rgb(196,88,17);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Times,serif;font-size:14.1px;color:rgb(196,88,17);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:"Calibri",serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:"Calibri",serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_023{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_024{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Times,serif;font-size:16.0px;color:rgb(196,88,17);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Times,serif;font-size:16.0px;color:rgb(196,88,17);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background01.jpg" width=595 height=841></div>
+<div style="position:absolute;left:387.07px;top:122.82px" class="cls_003"><span class="cls_003">2018</span></div>
+<div style="position:absolute;left:285.65px;top:212.10px" class="cls_004"><span class="cls_004">Product Catalog</span></div>
+<div style="position:absolute;left:386.11px;top:746.78px" class="cls_005"><span class="cls_005">Ceiba International Group LLC</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:851px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background02.jpg" width=595 height=841></div>
+<div style="position:absolute;left:30.72px;top:4.84px" class="cls_004"><span class="cls_004">AVOCADO</span></div>
+<div style="position:absolute;left:387.07px;top:69.28px" class="cls_007"><span class="cls_007">Variety/Type</span></div>
+<div style="position:absolute;left:387.07px;top:89.22px" class="cls_007"><span class="cls_007">Descriptions</span></div>
+<div style="position:absolute;left:387.07px;top:116.70px" class="cls_008"><span class="cls_008">Persea  Americana</span></div>
+<div style="position:absolute;left:513.34px;top:116.70px" class="cls_008"><span class="cls_008">- </span><span class="cls_009"> They</span></div>
+<div style="position:absolute;left:387.07px;top:134.10px" class="cls_009"><span class="cls_009">have  greenish  or  yellowish</span></div>
+<div style="position:absolute;left:387.07px;top:151.38px" class="cls_009"><span class="cls_009">flesh</span></div>
+<div style="position:absolute;left:439.09px;top:151.38px" class="cls_009"><span class="cls_009">with</span></div>
+<div style="position:absolute;left:488.73px;top:151.38px" class="cls_009"><span class="cls_009">a</span></div>
+<div style="position:absolute;left:519.57px;top:151.38px" class="cls_009"><span class="cls_009">buttery</span></div>
+<div style="position:absolute;left:387.07px;top:168.78px" class="cls_009"><span class="cls_009">consistency and a rich, nutty</span></div>
+<div style="position:absolute;left:575.28px;top:169.38px" class="cls_006"><span class="cls_006">1</span></div>
+<div style="position:absolute;left:387.07px;top:186.18px" class="cls_009"><span class="cls_009">flavour.</span></div>
+<div style="position:absolute;left:455.40px;top:186.18px" class="cls_009"><span class="cls_009">The    fruit</span></div>
+<div style="position:absolute;left:550.02px;top:186.18px" class="cls_009"><span class="cls_009">is</span></div>
+<div style="position:absolute;left:387.07px;top:203.58px" class="cls_009"><span class="cls_009">exceedingly variable in size,</span></div>
+<div style="position:absolute;left:387.07px;top:220.98px" class="cls_009"><span class="cls_009">no  larger  than  a  hen’s  egg</span></div>
+<div style="position:absolute;left:387.07px;top:238.26px" class="cls_009"><span class="cls_009">sometimes weighing</span></div>
+<div style="position:absolute;left:515.80px;top:238.26px" class="cls_009"><span class="cls_009">1-2 kg</span></div>
+<div style="position:absolute;left:387.07px;top:255.69px" class="cls_009"><span class="cls_009">(2-4 pounds). The form varies</span></div>
+<div style="position:absolute;left:387.07px;top:273.09px" class="cls_009"><span class="cls_009">from  round  to  pear-shaped</span></div>
+<div style="position:absolute;left:387.07px;top:290.49px" class="cls_009"><span class="cls_009">with a long, slender neck, and</span></div>
+<div style="position:absolute;left:387.07px;top:307.77px" class="cls_009"><span class="cls_009">the colour ranges from green to</span></div>
+<div style="position:absolute;left:387.07px;top:323.25px" class="cls_009"><span class="cls_009">dark purple.</span></div>
+<div style="position:absolute;left:387.07px;top:350.97px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:86.06px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:127.70px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:151.46px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:193.13px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:359.95px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:401.71px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:443.38px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:485.14px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:526.78px;top:434.99px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:479.15px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:478.91px" class="cls_009"><span class="cls_009">Ripe: Tº.36-40 °F /2-4 °C</span></div>
+<div style="position:absolute;left:36.00px;top:504.35px" class="cls_009"><span class="cls_009">Manabi, Guayas and Orellana Provinces.</span></div>
+<div style="position:absolute;left:315.43px;top:504.35px" class="cls_009"><span class="cls_009">85-95% relative humidity</span></div>
+<div style="position:absolute;left:36.00px;top:529.91px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:315.43px;top:529.91px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:555.11px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:315.43px;top:555.11px" class="cls_009"><span class="cls_009">Guayaquil</span></div>
+<div style="position:absolute;left:36.00px;top:580.43px" class="cls_009"><span class="cls_009">Boxes X 25 kg.</span></div>
+<div style="position:absolute;left:36.00px;top:605.87px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:631.22px" class="cls_009"><span class="cls_009">Fresh Selected</span></div>
+<div style="position:absolute;left:36.00px;top:656.90px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:682.22px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:699.62px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:724.70px" class="cls_009"><span class="cls_009">Unripe: Tº.45-50 °F /7-10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:750.14px" class="cls_009"><span class="cls_009">85-95% relative humidity</span></div>
+<div style="position:absolute;left:315.43px;top:750.38px" class="cls_012"><span class="cls_012">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:223.61px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1702px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background03.jpg" width=595 height=841></div>
+<div style="position:absolute;left:32.16px;top:3.40px" class="cls_004"><span class="cls_004">BANANA</span></div>
+<div style="position:absolute;left:381.55px;top:102.42px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:381.55px;top:127.62px" class="cls_008"><span class="cls_008">Musa   x   paradisiaca</span></div>
+<div style="position:absolute;left:528.46px;top:127.62px" class="cls_008"><span class="cls_008">- </span><span class="cls_009"> or</span></div>
+<div style="position:absolute;left:381.55px;top:144.90px" class="cls_009"><span class="cls_009">dessert,   bananas   are   most</span></div>
+<div style="position:absolute;left:381.55px;top:162.30px" class="cls_009"><span class="cls_009">commonly eaten fresh, they are</span></div>
+<div style="position:absolute;left:381.55px;top:179.70px" class="cls_009"><span class="cls_009">long and slightly curved with a</span></div>
+<div style="position:absolute;left:381.55px;top:197.10px" class="cls_009"><span class="cls_009">bright  yellow  color.  Slightly</span></div>
+<div style="position:absolute;left:381.55px;top:214.38px" class="cls_009"><span class="cls_009">sweet. They go from green to</span></div>
+<div style="position:absolute;left:381.55px;top:231.78px" class="cls_009"><span class="cls_009">yellow when fully ripe.</span></div>
+<div style="position:absolute;left:381.55px;top:282.81px" class="cls_010"><span class="cls_010">Product Availability</span></div>
+<div style="position:absolute;left:140.90px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:179.66px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:218.57px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:257.45px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:296.33px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:335.11px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:373.99px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:412.87px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:451.78px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:490.66px;top:379.29px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:400.77px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 50.000 TONS.</span></div>
+<div style="position:absolute;left:38.52px;top:422.73px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:447.83px" class="cls_009"><span class="cls_009">El Oro Sucumbios and Guayas</span></div>
+<div style="position:absolute;left:36.00px;top:465.23px" class="cls_009"><span class="cls_009">Provinces.</span></div>
+<div style="position:absolute;left:36.00px;top:490.79px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:515.99px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:541.31px" class="cls_009"><span class="cls_009">Cartons X 50-lb.</span></div>
+<div style="position:absolute;left:36.00px;top:566.75px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:592.07px" class="cls_009"><span class="cls_009">Cavendish</span></div>
+<div style="position:absolute;left:36.00px;top:617.66px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:643.10px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:660.50px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:663.62px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:685.58px" class="cls_009"><span class="cls_009">Mature green and ripe: Tº. 60-65°F /16-18</span></div>
+<div style="position:absolute;left:315.43px;top:688.82px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:702.98px" class="cls_009"><span class="cls_009">°C</span></div>
+<div style="position:absolute;left:315.43px;top:720.38px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:728.30px" class="cls_009"><span class="cls_009">85-95% relative humidity</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:2553px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background04.jpg" width=595 height=841></div>
+<div style="position:absolute;left:30.72px;top:4.84px" class="cls_004"><span class="cls_004">CHIA</span></div>
+<div style="position:absolute;left:36.00px;top:72.04px" class="cls_010"><span class="cls_010">Variety/Type</span></div>
+<div style="position:absolute;left:36.00px;top:89.46px" class="cls_010"><span class="cls_010">Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:114.90px" class="cls_008"><span class="cls_008">Salvia</span></div>
+<div style="position:absolute;left:99.56px;top:114.90px" class="cls_008"><span class="cls_008">Hispanica</span></div>
+<div style="position:absolute;left:186.38px;top:114.90px" class="cls_008"><span class="cls_008">-</span></div>
+<div style="position:absolute;left:36.00px;top:131.94px" class="cls_009"><span class="cls_009">Typically,  chia  seeds  are</span></div>
+<div style="position:absolute;left:36.00px;top:149.34px" class="cls_009"><span class="cls_009">small</span></div>
+<div style="position:absolute;left:90.53px;top:149.34px" class="cls_009"><span class="cls_009">flattened</span></div>
+<div style="position:absolute;left:163.68px;top:149.34px" class="cls_009"><span class="cls_009">ovals</span></div>
+<div style="position:absolute;left:36.00px;top:166.74px" class="cls_009"><span class="cls_009">measuring on average 2.1</span></div>
+<div style="position:absolute;left:574.56px;top:170.46px" class="cls_002"><span class="cls_002">3</span></div>
+<div style="position:absolute;left:36.00px;top:184.14px" class="cls_009"><span class="cls_009">mm × 1.3 mm × 0.8 mm</span></div>
+<div style="position:absolute;left:36.00px;top:201.42px" class="cls_009"><span class="cls_009">(0.08 in × 0.05 in × 0.03 in),</span></div>
+<div style="position:absolute;left:36.00px;top:218.82px" class="cls_009"><span class="cls_009">with an average weight of</span></div>
+<div style="position:absolute;left:36.00px;top:236.22px" class="cls_009"><span class="cls_009">1.3 mg per seed. They are</span></div>
+<div style="position:absolute;left:36.00px;top:253.65px" class="cls_009"><span class="cls_009">mottle-colored with brown,</span></div>
+<div style="position:absolute;left:36.00px;top:271.05px" class="cls_009"><span class="cls_009">gray, black, and white.</span></div>
+<div style="position:absolute;left:36.00px;top:321.93px" class="cls_010"><span class="cls_010">Product Availability</span></div>
+<div style="position:absolute;left:275.33px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:313.85px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:352.39px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:390.91px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:429.43px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:467.98px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:506.38px;top:392.01px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:439.67px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:439.67px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:464.75px" class="cls_009"><span class="cls_009">Santa Elena Province.</span></div>
+<div style="position:absolute;left:315.43px;top:464.75px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:315.43px;top:490.19px" class="cls_009"><span class="cls_009">Bags of 5 kg.</span></div>
+<div style="position:absolute;left:315.43px;top:515.51px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:315.43px;top:540.95px" class="cls_009"><span class="cls_009">Selected Dry</span></div>
+<div style="position:absolute;left:315.43px;top:566.51px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:315.43px;top:591.95px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:315.43px;top:609.26px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:634.46px" class="cls_009"><span class="cls_009">Store in a dry and ventilated room</span></div>
+<div style="position:absolute;left:315.43px;top:660.02px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:315.43px;top:685.22px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:315.43px;top:716.78px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:223.61px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:3404px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background05.jpg" width=595 height=841></div>
+<div style="position:absolute;left:32.16px;top:3.40px" class="cls_004"><span class="cls_004">COCOA BEANS (CRIOLLO ARRIBA)</span></div>
+<div style="position:absolute;left:368.35px;top:69.16px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:368.35px;top:94.62px" class="cls_008"><span class="cls_008">Theobroma  Cacao  L.  Family</span></div>
+<div style="position:absolute;left:368.35px;top:111.78px" class="cls_008"><span class="cls_008">Sterculiaceae</span></div>
+<div style="position:absolute;left:457.54px;top:111.78px" class="cls_008"><span class="cls_008">-</span><span class="cls_009">  are  the  seeds,</span></div>
+<div style="position:absolute;left:368.35px;top:129.06px" class="cls_009"><span class="cls_009">contained in a cucumber-like fruit,</span></div>
+<div style="position:absolute;left:368.35px;top:146.46px" class="cls_009"><span class="cls_009">of the cacao tree. The yellowish,</span></div>
+<div style="position:absolute;left:368.35px;top:163.86px" class="cls_009"><span class="cls_009">reddish    to    brownish    fruits</span></div>
+<div style="position:absolute;left:368.35px;top:181.26px" class="cls_009"><span class="cls_009">(botanically   speaking,   berries),</span></div>
+<div style="position:absolute;left:368.35px;top:198.54px" class="cls_009"><span class="cls_009">which are of similar appearance to</span></div>
+<div style="position:absolute;left:368.35px;top:215.94px" class="cls_009"><span class="cls_009">cucumbers, are divided into five</span></div>
+<div style="position:absolute;left:368.35px;top:233.34px" class="cls_009"><span class="cls_009">longitudinal compartments, each</span></div>
+<div style="position:absolute;left:368.35px;top:250.74px" class="cls_009"><span class="cls_009">containing up to 10 seeds (cocoa</span></div>
+<div style="position:absolute;left:368.35px;top:268.17px" class="cls_009"><span class="cls_009">beans).  As  the  fruits  approach</span></div>
+<div style="position:absolute;left:368.35px;top:285.45px" class="cls_009"><span class="cls_009">ripeness,   the   partitions   break</span></div>
+<div style="position:absolute;left:36.00px;top:302.85px" class="cls_009"><span class="cls_009">down and the seeds are located around the central funicle in a whitish pulp with a sweet/sour</span></div>
+<div style="position:absolute;left:36.00px;top:320.25px" class="cls_009"><span class="cls_009">flavor.</span></div>
+<div style="position:absolute;left:36.00px;top:345.81px" class="cls_010"><span class="cls_010">Product Availability</span></div>
+<div style="position:absolute;left:60.72px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:95.42px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:129.98px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:164.54px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:199.25px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:233.81px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:268.37px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:303.05px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:337.63px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:372.19px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:406.87px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:441.46px;top:413.85px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:439.31px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 10.000 TONS.</span></div>
+<div style="position:absolute;left:36.00px;top:461.15px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:461.15px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:39.12px;top:486.35px" class="cls_009"><span class="cls_009">Flavio Alfaro, Manabi Province</span></div>
+<div style="position:absolute;left:315.43px;top:486.35px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:511.91px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:537.11px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:562.43px" class="cls_009"><span class="cls_009">Jute bags x 50 kg.</span></div>
+<div style="position:absolute;left:36.00px;top:587.87px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:613.22px" class="cls_009"><span class="cls_009">Premium</span></div>
+<div style="position:absolute;left:36.00px;top:638.90px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:664.22px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:681.62px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:706.70px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:315.43px;top:711.26px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:732.14px" class="cls_009"><span class="cls_009">4% relative humidity</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:4255px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background06.jpg" width=595 height=841></div>
+<div style="position:absolute;left:34.44px;top:6.52px" class="cls_004"><span class="cls_004">COCONUT</span></div>
+<div style="position:absolute;left:36.00px;top:73.74px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:101.22px" class="cls_008"><span class="cls_008">Cocos Nucifera - </span><span class="cls_009">or </span><span class="cls_023">Coconut</span><span class="cls_009"> is a</span></div>
+<div style="position:absolute;left:36.00px;top:118.62px" class="cls_009"><span class="cls_009">round and elongate fruit of white,</span></div>
+<div style="position:absolute;left:36.00px;top:135.90px" class="cls_009"><span class="cls_009">fibrous and oily meat covered by a</span></div>
+<div style="position:absolute;left:36.00px;top:153.30px" class="cls_009"><span class="cls_009">thick,   brown   and   hairy   shell.</span></div>
+<div style="position:absolute;left:574.56px;top:170.46px" class="cls_002"><span class="cls_002">5</span></div>
+<div style="position:absolute;left:36.00px;top:170.70px" class="cls_009"><span class="cls_009">Coconuts   are   surrounded   by   a</span></div>
+<div style="position:absolute;left:36.00px;top:188.10px" class="cls_009"><span class="cls_009">fibrous kernel, inside which a white</span></div>
+<div style="position:absolute;left:36.00px;top:205.38px" class="cls_009"><span class="cls_009">meat is called copra, it is slightly</span></div>
+<div style="position:absolute;left:36.00px;top:222.78px" class="cls_009"><span class="cls_009">sweet  with  a  moist  and  slightly</span></div>
+<div style="position:absolute;left:36.00px;top:240.18px" class="cls_009"><span class="cls_009">crunchy texture.  White meat and</span></div>
+<div style="position:absolute;left:36.00px;top:257.61px" class="cls_009"><span class="cls_009">liquid are edible.</span></div>
+<div style="position:absolute;left:36.00px;top:283.29px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:94.10px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:126.02px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:158.06px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:190.01px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:221.93px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:253.85px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:285.89px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:317.83px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:349.75px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:381.67px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:413.71px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:445.66px;top:355.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:390.21px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP</span></div>
+<div style="position:absolute;left:315.43px;top:409.89px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:417.09px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:435.11px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:442.31px" class="cls_009"><span class="cls_009">Guayas, Manabi, Sucumbios and Morona</span></div>
+<div style="position:absolute;left:36.00px;top:459.59px" class="cls_009"><span class="cls_009">Santiago Provinces</span></div>
+<div style="position:absolute;left:36.00px;top:485.27px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:510.35px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:535.79px" class="cls_009"><span class="cls_009">Grated Dry</span></div>
+<div style="position:absolute;left:36.00px;top:561.11px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:586.55px" class="cls_009"><span class="cls_009">A</span></div>
+<div style="position:absolute;left:36.00px;top:612.14px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:637.46px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:654.86px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:680.06px" class="cls_009"><span class="cls_009">Store in a dry area</span></div>
+<div style="position:absolute;left:315.43px;top:695.66px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:223.61px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5106px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background07.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.48px" class="cls_004"><span class="cls_004">COFFEE</span></div>
+<div style="position:absolute;left:350.23px;top:83.70px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:350.23px;top:108.78px" class="cls_008"><span class="cls_008">Coffea Spp (Rubiaceae) </span><span class="cls_009">- </span><span class="cls_008">Robusta</span></div>
+<div style="position:absolute;left:350.23px;top:126.18px" class="cls_009"><span class="cls_009">coffee tastes earthy and is often said</span></div>
+<div style="position:absolute;left:350.23px;top:143.58px" class="cls_009"><span class="cls_009">to have a bitter, rubbery/grain-like</span></div>
+<div style="position:absolute;left:350.23px;top:160.86px" class="cls_009"><span class="cls_009">flavor,  with  a  peanutty  aftertaste.</span></div>
+<div style="position:absolute;left:574.56px;top:170.46px" class="cls_002"><span class="cls_002">6</span></div>
+<div style="position:absolute;left:350.23px;top:178.26px" class="cls_009"><span class="cls_009">Robusta coffee beans contain more</span></div>
+<div style="position:absolute;left:350.23px;top:195.66px" class="cls_009"><span class="cls_009">caffeine and less sugar than arabica</span></div>
+<div style="position:absolute;left:350.23px;top:213.06px" class="cls_009"><span class="cls_009">beans, and therefore taste stronger</span></div>
+<div style="position:absolute;left:350.23px;top:230.34px" class="cls_009"><span class="cls_009">and</span></div>
+<div style="position:absolute;left:395.68px;top:230.34px" class="cls_009"><span class="cls_009">harsher</span></div>
+<div style="position:absolute;left:462.11px;top:230.34px" class="cls_009"><span class="cls_009">than</span></div>
+<div style="position:absolute;left:511.54px;top:230.34px" class="cls_009"><span class="cls_009">Arabica.</span></div>
+<div style="position:absolute;left:350.23px;top:247.74px" class="cls_009"><span class="cls_009">Exclusively high-quality </span><span class="cls_008">Arabica</span><span class="cls_009"> is</span></div>
+<div style="position:absolute;left:350.23px;top:265.17px" class="cls_009"><span class="cls_009">beautifully fragrant, sweet and round,</span></div>
+<div style="position:absolute;left:350.23px;top:282.57px" class="cls_009"><span class="cls_009">with a slight and pleasant acidity.</span></div>
+<div style="position:absolute;left:348.91px;top:308.13px" class="cls_010"><span class="cls_010">Product Availability</span></div>
+<div style="position:absolute;left:133.34px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:166.58px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:199.73px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:232.85px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:265.97px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:299.09px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:332.35px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:365.47px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:398.59px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:431.71px;top:371.37px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:401.61px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 20.000 TONS.</span></div>
+<div style="position:absolute;left:36.00px;top:423.45px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:423.45px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:448.67px" class="cls_009"><span class="cls_009">Manabi Sucumbios and Orellana</span></div>
+<div style="position:absolute;left:315.43px;top:448.67px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:466.07px" class="cls_009"><span class="cls_009">Provinces.</span></div>
+<div style="position:absolute;left:36.00px;top:516.95px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:542.15px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:567.47px" class="cls_009"><span class="cls_009">Jute Bags X 50 kg. Green</span></div>
+<div style="position:absolute;left:36.00px;top:592.91px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:618.26px" class="cls_009"><span class="cls_009">Robusta-Arabigo</span></div>
+<div style="position:absolute;left:36.00px;top:643.94px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:669.26px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:686.66px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:711.74px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:36.00px;top:737.18px" class="cls_009"><span class="cls_009">4% relative humidity</span></div>
+<div style="position:absolute;left:315.43px;top:746.06px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5957px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background08.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.48px" class="cls_004"><span class="cls_004">DRAGON FRUIT (PITAHAYA)</span></div>
+<div style="position:absolute;left:324.07px;top:94.62px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:327.55px;top:119.70px" class="cls_008"><span class="cls_008">Hilosereus Undatus -</span><span class="cls_009">The fruits are oval</span></div>
+<div style="position:absolute;left:324.07px;top:137.10px" class="cls_009"><span class="cls_009">to oblong in shape, weighing about 8-12</span></div>
+<div style="position:absolute;left:324.07px;top:154.50px" class="cls_009"><span class="cls_009">ounces and averaging 10-15 centimeters</span></div>
+<div style="position:absolute;left:574.56px;top:170.46px" class="cls_002"><span class="cls_002">7</span></div>
+<div style="position:absolute;left:324.07px;top:171.90px" class="cls_009"><span class="cls_009">in length. They have a pink or magenta</span></div>
+<div style="position:absolute;left:324.07px;top:189.18px" class="cls_009"><span class="cls_009">peel  with  green  scale-like  leaves,  and</span></div>
+<div style="position:absolute;left:324.07px;top:206.58px" class="cls_009"><span class="cls_009">white flesh that is dotted with tiny edible</span></div>
+<div style="position:absolute;left:324.07px;top:223.98px" class="cls_009"><span class="cls_009">black seeds, similar to a kiwi. The juicy,</span></div>
+<div style="position:absolute;left:324.07px;top:241.38px" class="cls_009"><span class="cls_009">spongy yet dense pulp offers a subtle</span></div>
+<div style="position:absolute;left:324.07px;top:258.69px" class="cls_009"><span class="cls_009">sweet flavor with notes of berry, pear,</span></div>
+<div style="position:absolute;left:324.07px;top:276.09px" class="cls_009"><span class="cls_009">kiwi, and watermelon, sometimes with</span></div>
+<div style="position:absolute;left:324.07px;top:293.49px" class="cls_009"><span class="cls_009">just a hint of sourness.</span></div>
+<div style="position:absolute;left:36.00px;top:320.49px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:179.66px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:218.33px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:256.85px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:295.25px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:333.79px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:372.31px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:410.83px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:449.38px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:487.90px;top:385.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:399.57px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 250.000 BOXES.</span></div>
+<div style="position:absolute;left:315.43px;top:420.33px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:36.00px;top:426.45px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:445.79px" class="cls_009"><span class="cls_009">Tº 50 °F /10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:451.55px" class="cls_009"><span class="cls_009">Guayas, Manabi, Sucumbios and Morona</span></div>
+<div style="position:absolute;left:315.43px;top:463.31px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:468.95px" class="cls_009"><span class="cls_009">Santiago Provinces</span></div>
+<div style="position:absolute;left:315.43px;top:488.51px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:494.63px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:519.71px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:545.03px" class="cls_009"><span class="cls_009">Patel of boxes of 12x12 /each box contains</span></div>
+<div style="position:absolute;left:36.00px;top:562.43px" class="cls_009"><span class="cls_009">a weight of 2.5 kg.</span></div>
+<div style="position:absolute;left:36.00px;top:587.87px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:613.22px" class="cls_009"><span class="cls_009">Premium Selected</span></div>
+<div style="position:absolute;left:36.00px;top:638.90px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:664.22px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:681.62px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:721.10px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:6808px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background09.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.48px" class="cls_004"><span class="cls_004">FIGS</span></div>
+<div style="position:absolute;left:36.00px;top:69.16px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:94.38px" class="cls_008"><span class="cls_008">Ficus Carica-</span><span class="cls_002"> </span><span class="cls_009">is a soft, sweet fruit. Its</span></div>
+<div style="position:absolute;left:36.00px;top:111.78px" class="cls_009"><span class="cls_009">skin is very thin and has many small seeds</span></div>
+<div style="position:absolute;left:36.00px;top:129.06px" class="cls_009"><span class="cls_009">inside of it. Seeds may be large, medium,</span></div>
+<div style="position:absolute;left:36.00px;top:146.46px" class="cls_009"><span class="cls_009">small or minute and range in number from</span></div>
+<div style="position:absolute;left:36.00px;top:163.86px" class="cls_009"><span class="cls_009">30 to 1,600 per fruit. It may be obovoid,</span></div>
+<div style="position:absolute;left:574.56px;top:170.46px" class="cls_002"><span class="cls_002">8</span></div>
+<div style="position:absolute;left:36.00px;top:181.26px" class="cls_009"><span class="cls_009">turbinate, or pear-shaped, 1 to 4 in (2.5-10</span></div>
+<div style="position:absolute;left:36.00px;top:198.54px" class="cls_009"><span class="cls_009">cm)  long,  and  varies  in  color  from</span></div>
+<div style="position:absolute;left:36.00px;top:215.94px" class="cls_009"><span class="cls_009">yellowish-green to coppery, bronze, or</span></div>
+<div style="position:absolute;left:36.00px;top:233.34px" class="cls_009"><span class="cls_009">dark-purple. It is juicy and sweet when</span></div>
+<div style="position:absolute;left:36.00px;top:248.82px" class="cls_009"><span class="cls_009">ripe, gummy with latex when unripe.</span></div>
+<div style="position:absolute;left:36.00px;top:276.45px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:95.06px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:131.06px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:166.94px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:202.97px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:238.97px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:274.85px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:310.85px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:346.75px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:382.75px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:418.75px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:454.66px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:490.66px;top:351.21px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:415.65px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:440.75px" class="cls_009"><span class="cls_009">Pichincha, Chimborazo and Tungurahua</span></div>
+<div style="position:absolute;left:36.00px;top:458.15px" class="cls_009"><span class="cls_009">Provinces</span></div>
+<div style="position:absolute;left:36.00px;top:483.71px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:508.91px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:534.23px" class="cls_009"><span class="cls_009">Boxes </span><span class="cls_024">X</span><span class="cls_009"> 25 kg</span></div>
+<div style="position:absolute;left:36.00px;top:559.67px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:584.99px" class="cls_009"><span class="cls_009">Fresh Selected</span></div>
+<div style="position:absolute;left:36.00px;top:610.70px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:636.02px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:653.42px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:664.58px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:678.50px" class="cls_009"><span class="cls_009">Fresh at Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:704.18px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:729.26px" class="cls_009"><span class="cls_009">Guayaquil</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:7659px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background10.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.48px" class="cls_004"><span class="cls_004">GUAVA</span></div>
+<div style="position:absolute;left:364.63px;top:69.16px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:364.63px;top:94.38px" class="cls_008"><span class="cls_008">Psidium Guajava -</span><span class="cls_009"> The fruit is</span></div>
+<div style="position:absolute;left:364.63px;top:111.78px" class="cls_009"><span class="cls_009">roughly spherical with a furrowed</span></div>
+<div style="position:absolute;left:364.63px;top:129.06px" class="cls_009"><span class="cls_009">smooth surface. The most alluring</span></div>
+<div style="position:absolute;left:364.63px;top:146.46px" class="cls_009"><span class="cls_009">element of a Guava is its fragrance,</span></div>
+<div style="position:absolute;left:364.63px;top:163.86px" class="cls_009"><span class="cls_009">a   bouquet   of   bright   tropical</span></div>
+<div style="position:absolute;left:574.56px;top:170.46px" class="cls_002"><span class="cls_002">9</span></div>
+<div style="position:absolute;left:364.63px;top:181.26px" class="cls_009"><span class="cls_009">aromatics. The flesh is unique to</span></div>
+<div style="position:absolute;left:364.63px;top:198.54px" class="cls_009"><span class="cls_009">many   fruits,   its   texture   a</span></div>
+<div style="position:absolute;left:364.63px;top:215.94px" class="cls_009"><span class="cls_009">combination of a firm banana with</span></div>
+<div style="position:absolute;left:364.63px;top:233.34px" class="cls_009"><span class="cls_009">the succulence of an apple. Tiny</span></div>
+<div style="position:absolute;left:364.63px;top:250.74px" class="cls_009"><span class="cls_009">edible  seeds  pattern  the  flesh's</span></div>
+<div style="position:absolute;left:364.63px;top:268.17px" class="cls_009"><span class="cls_009">core. The flavor of Guava is a</span></div>
+<div style="position:absolute;left:364.63px;top:285.45px" class="cls_009"><span class="cls_009">reflection of its aromatics, though</span></div>
+<div style="position:absolute;left:364.63px;top:302.85px" class="cls_009"><span class="cls_009">more   subtle   with   notes   of</span></div>
+<div style="position:absolute;left:364.63px;top:320.25px" class="cls_009"><span class="cls_009">pineapple,  papaya,  banana  and</span></div>
+<div style="position:absolute;left:364.63px;top:337.65px" class="cls_009"><span class="cls_009">lemon</span></div>
+<div style="position:absolute;left:36.00px;top:363.33px" class="cls_009"><span class="cls_009">.</span><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:78.62px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:119.06px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:159.50px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:199.97px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:240.41px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:280.85px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:321.31px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:361.75px;top:446.51px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:496.79px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:496.55px" class="cls_009"><span class="cls_009">Fresh at Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:521.87px" class="cls_009"><span class="cls_009">Manabi, Guayas, Orellana and Sucumbios</span></div>
+<div style="position:absolute;left:315.43px;top:522.11px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:539.27px" class="cls_009"><span class="cls_009">Provinces</span></div>
+<div style="position:absolute;left:315.43px;top:547.31px" class="cls_009"><span class="cls_009">Guayaquil</span></div>
+<div style="position:absolute;left:36.00px;top:564.83px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:590.03px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:615.38px" class="cls_009"><span class="cls_009">Boxes X 25 kg</span></div>
+<div style="position:absolute;left:36.00px;top:640.82px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:666.14px" class="cls_009"><span class="cls_009">Fresh Selected</span></div>
+<div style="position:absolute;left:36.00px;top:691.82px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:717.14px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:315.43px;top:731.78px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:734.54px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:8510px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background11.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.48px" class="cls_004"><span class="cls_004">MANGO</span></div>
+<div style="position:absolute;left:310.49px;top:72.16px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:310.49px;top:99.66px" class="cls_009"><span class="cls_009">Also known as Mangifera Indica. We offer</span></div>
+<div style="position:absolute;left:310.49px;top:117.06px" class="cls_009"><span class="cls_009">this   two   varieties: </span><span class="cls_008">  Tommy   Variety:</span></div>
+<div style="position:absolute;left:310.49px;top:134.46px" class="cls_008"><span class="cls_008">Texture </span><span class="cls_009">firm flesh due to fibers throughout.</span></div>
+<div style="position:absolute;left:310.49px;top:151.86px" class="cls_008"><span class="cls_008">Color </span><span class="cls_009">A dark red blush often covers much of</span></div>
+<div style="position:absolute;left:571.68px;top:170.46px" class="cls_002"><span class="cls_002">10</span></div>
+<div style="position:absolute;left:310.49px;top:169.26px" class="cls_009"><span class="cls_009">the  fruit  with  green  and  orange-yellow</span></div>
+<div style="position:absolute;left:310.49px;top:186.54px" class="cls_009"><span class="cls_009">accents. </span><span class="cls_008">Weight</span><span class="cls_009"> per unit of fruit of 450 to</span></div>
+<div style="position:absolute;left:310.49px;top:203.94px" class="cls_009"><span class="cls_009">700 grams approximately.</span></div>
+<div style="position:absolute;left:480.46px;top:203.94px" class="cls_008"><span class="cls_008">Kent variety:</span></div>
+<div style="position:absolute;left:310.49px;top:221.34px" class="cls_008"><span class="cls_008">Texture </span><span class="cls_009"> juicy,  tender  flesh  with limited</span></div>
+<div style="position:absolute;left:36.00px;top:238.74px" class="cls_009"><span class="cls_009">fibers.</span><span class="cls_008"> Color dark green and often has a dark red blush over a small portion of the mango</span></div>
+<div style="position:absolute;left:36.00px;top:256.05px" class="cls_009"><span class="cls_009">weight per unit of fruit of 400 to 600 grams approximately.</span></div>
+<div style="position:absolute;left:36.00px;top:281.85px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:63.26px;top:357.69px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:413.83px;top:357.69px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:452.74px;top:357.69px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:491.74px;top:357.69px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:384.93px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 800.000 BOXES</span><span class="cls_002">.</span></div>
+<div style="position:absolute;left:36.00px;top:406.89px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:406.89px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:315.43px;top:424.29px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:432.11px" class="cls_009"><span class="cls_009">Santa Elena, Manabi, Guayas, Los Rios</span></div>
+<div style="position:absolute;left:36.00px;top:449.39px" class="cls_009"><span class="cls_009">Provinces</span></div>
+<div style="position:absolute;left:315.43px;top:449.39px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:36.00px;top:475.07px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:315.43px;top:474.83px" class="cls_009"><span class="cls_009">Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:500.15px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:315.43px;top:500.39px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:525.59px" class="cls_009"><span class="cls_009">In cardboard boxes with a weight per box of</span></div>
+<div style="position:absolute;left:315.43px;top:525.59px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:542.87px" class="cls_009"><span class="cls_009">4 kg each box, with sizes from 8</span></div>
+<div style="position:absolute;left:36.00px;top:560.27px" class="cls_009"><span class="cls_009">to</span></div>
+<div style="position:absolute;left:53.83px;top:560.27px" class="cls_009"><span class="cls_009">12 units in the case of the</span></div>
+<div style="position:absolute;left:36.00px;top:577.67px" class="cls_009"><span class="cls_009">Tommy variety and from 14 to</span></div>
+<div style="position:absolute;left:36.00px;top:595.07px" class="cls_009"><span class="cls_009">20 units in the case of the Kent</span></div>
+<div style="position:absolute;left:36.00px;top:612.50px" class="cls_009"><span class="cls_009">variety. The capacity of</span></div>
+<div style="position:absolute;left:189.80px;top:612.50px" class="cls_009"><span class="cls_009">4800</span></div>
+<div style="position:absolute;left:36.00px;top:629.78px" class="cls_009"><span class="cls_009">boxes per container</span></div>
+<div style="position:absolute;left:36.00px;top:655.22px" class="cls_025"><span class="cls_025">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:683.06px" class="cls_009"><span class="cls_009">Tomy Atkins</span></div>
+<div style="position:absolute;left:36.00px;top:708.62px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:315.43px;top:743.30px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:9361px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background12.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.48px" class="cls_004"><span class="cls_004">PALMETTO (HEART OF PALM)</span></div>
+<div style="position:absolute;left:36.00px;top:77.34px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:102.54px" class="cls_008"><span class="cls_008">Chamaerops  Humilis</span></div>
+<div style="position:absolute;left:180.62px;top:102.54px" class="cls_008"><span class="cls_008">- </span><span class="cls_009"> or  heart  of</span></div>
+<div style="position:absolute;left:36.00px;top:119.94px" class="cls_009"><span class="cls_009">palm is  a </span><A HREF="https://en.wikipedia.org/wiki/Vegetable">vegetable</A> harvested  from  the</div>
+<div style="position:absolute;left:36.00px;top:137.22px" class="cls_009"><span class="cls_009">inner</span></div>
+<div style="position:absolute;left:89.72px;top:137.22px" class="cls_009"><span class="cls_009">core</span></div>
+<div style="position:absolute;left:138.79px;top:137.22px" class="cls_009"><span class="cls_009">and</span></div>
+<div style="position:absolute;left:183.76px;top:137.22px" class="cls_009"><span class="cls_009">growing </span><A HREF="https://en.wikipedia.org/wiki/Bud">bud</A> of</div>
+<div style="position:absolute;left:36.00px;top:154.62px" class="cls_009"><span class="cls_009">certain </span><A HREF="https://en.wikipedia.org/wiki/Palm_tree">palm trees.</A> The palmetto is white,</div>
+<div style="position:absolute;left:571.68px;top:167.94px" class="cls_002"><span class="cls_002">11</span></div>
+<div style="position:absolute;left:36.00px;top:172.02px" class="cls_009"><span class="cls_009">soft with a flexible texture, rich in fibers.</span></div>
+<div style="position:absolute;left:36.00px;top:189.42px" class="cls_009"><span class="cls_009">It has a very special subtle flavor, crunchy</span></div>
+<div style="position:absolute;left:36.00px;top:206.82px" class="cls_009"><span class="cls_009">and compact, but at the same time soft</span><span class="cls_012">.</span></div>
+<div style="position:absolute;left:36.00px;top:224.10px" class="cls_009"><span class="cls_009">Heart of palm may be eaten on its own,</span></div>
+<div style="position:absolute;left:36.00px;top:241.50px" class="cls_009"><span class="cls_009">and often it is eaten in a salad</span><span class="cls_012">.</span></div>
+<div style="position:absolute;left:36.00px;top:267.33px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:96.38px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:133.10px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:169.70px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:206.45px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:243.05px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:279.65px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:316.39px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:352.99px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:389.71px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:426.31px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:462.94px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:499.66px;top:332.73px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:315.43px;top:370.89px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:373.65px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:398.73px" class="cls_009"><span class="cls_009">Manabi, Guayas, Los Rios, Sucumbios and</span></div>
+<div style="position:absolute;left:315.43px;top:396.21px" class="cls_009"><span class="cls_009">Fresh Selected</span></div>
+<div style="position:absolute;left:36.00px;top:416.13px" class="cls_009"><span class="cls_009">Orellana Provinces</span></div>
+<div style="position:absolute;left:315.43px;top:421.89px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:441.71px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:315.43px;top:447.23px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:466.91px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:315.43px;top:464.63px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:489.83px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:36.00px;top:492.23px" class="cls_009"><span class="cls_009">In pieces at Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:324.79px;top:515.15px" class="cls_009"><span class="cls_009">Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:324.79px;top:540.71px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:324.79px;top:565.91px" class="cls_009"><span class="cls_009">Guayaquil</span></div>
+<div style="position:absolute;left:324.79px;top:709.46px" class="cls_012"><span class="cls_012">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:10212px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background13.jpg" width=595 height=841></div>
+<div style="position:absolute;left:34.44px;top:6.52px" class="cls_004"><span class="cls_004">PAPAYA</span></div>
+<div style="position:absolute;left:346.63px;top:98.94px" class="cls_010"><span class="cls_010">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:350.11px;top:124.14px" class="cls_008"><span class="cls_008">Carica    Papaya</span></div>
+<div style="position:absolute;left:480.58px;top:124.14px" class="cls_008"><span class="cls_008">- </span><span class="cls_009">   common</span></div>
+<div style="position:absolute;left:346.63px;top:141.42px" class="cls_009"><span class="cls_009">commercial    cultivars</span></div>
+<div style="position:absolute;left:507.35px;top:141.42px" class="cls_009"><span class="cls_009">generally</span></div>
+<div style="position:absolute;left:346.63px;top:158.82px" class="cls_009"><span class="cls_009">produce fruits that weigh 0.5 to 2.25</span></div>
+<div style="position:absolute;left:571.68px;top:170.46px" class="cls_002"><span class="cls_002">12</span></div>
+<div style="position:absolute;left:346.63px;top:176.22px" class="cls_009"><span class="cls_009">kg (1 to 5 lbs)—and have a thin but</span></div>
+<div style="position:absolute;left:346.63px;top:193.62px" class="cls_009"><span class="cls_009">tough waxy skin. Green fruits contain</span></div>
+<div style="position:absolute;left:346.63px;top:210.90px" class="cls_009"><span class="cls_009">latex, which disappears as the fruit</span></div>
+<div style="position:absolute;left:346.63px;top:228.30px" class="cls_009"><span class="cls_009">ripens to light or dark yellow. The</span></div>
+<div style="position:absolute;left:346.63px;top:245.70px" class="cls_009"><span class="cls_009">flesh of the fruit varies from yellow to</span></div>
+<div style="position:absolute;left:346.63px;top:263.13px" class="cls_009"><span class="cls_009">orange to red, and is thick and juicy,</span></div>
+<div style="position:absolute;left:346.63px;top:280.53px" class="cls_009"><span class="cls_009">with a central cavity filled with many</span></div>
+<div style="position:absolute;left:346.63px;top:297.81px" class="cls_009"><span class="cls_009">small black seeds. Papayas, which are</span></div>
+<div style="position:absolute;left:346.63px;top:315.21px" class="cls_009"><span class="cls_009">high in vitamins A and C and calcium,</span></div>
+<div style="position:absolute;left:36.00px;top:332.61px" class="cls_009"><span class="cls_009">are often used fresh in fruit salads and desserts, as well as prepared in juices and jams or dried.</span></div>
+<div style="position:absolute;left:36.00px;top:358.29px" class="cls_007"><span class="cls_007">Product</span></div>
+<div style="position:absolute;left:36.00px;top:378.21px" class="cls_007"><span class="cls_007">Availability</span></div>
+<div style="position:absolute;left:228.41px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:262.01px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:295.61px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:329.23px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:362.71px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:396.31px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:429.79px;top:407.13px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:461.63px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:486.83px" class="cls_009"><span class="cls_009">Manabi, Guayas and Santa Elena</span></div>
+<div style="position:absolute;left:36.00px;top:504.11px" class="cls_009"><span class="cls_009">Provinces</span></div>
+<div style="position:absolute;left:36.00px;top:529.55px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:554.87px" class="cls_009"><span class="cls_009">Boxes X 15kg.</span></div>
+<div style="position:absolute;left:36.00px;top:580.31px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:605.63px" class="cls_009"><span class="cls_009">Tainung-Hawaianna-Maradol(criolla)</span></div>
+<div style="position:absolute;left:36.00px;top:631.34px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:656.66px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:674.06px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:699.14px" class="cls_009"><span class="cls_009">Tº. 50 - 53,6°F /10 -12°C</span></div>
+<div style="position:absolute;left:36.00px;top:724.82px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:315.43px;top:742.46px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:749.90px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:223.61px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:11063px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background14.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.36px" class="cls_004"><span class="cls_004">PASSION FRUIT (MARACUYA)</span></div>
+<div style="position:absolute;left:36.00px;top:72.16px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:99.66px" class="cls_008"><span class="cls_008">Passiflora  Edulis</span></div>
+<div style="position:absolute;left:156.14px;top:99.66px" class="cls_008"><span class="cls_008">- </span><span class="cls_009"> also  known  as</span></div>
+<div style="position:absolute;left:36.00px;top:117.06px" class="cls_009"><span class="cls_009">passion fruit is a pepo, a type of berry,</span></div>
+<div style="position:absolute;left:36.00px;top:134.46px" class="cls_009"><span class="cls_009">round to oval. The outside color of the</span></div>
+<div style="position:absolute;left:36.00px;top:151.86px" class="cls_009"><span class="cls_009">berry ranges from dark-purple with fine</span></div>
+<div style="position:absolute;left:36.00px;top:169.26px" class="cls_009"><span class="cls_009">white specks to light yellow either yellow</span></div>
+<div style="position:absolute;left:36.00px;top:186.54px" class="cls_009"><span class="cls_009">or dark purple at maturity, with a soft to</span></div>
+<div style="position:absolute;left:36.00px;top:203.94px" class="cls_009"><span class="cls_009">firm, juicy interior filled with numerous</span></div>
+<div style="position:absolute;left:36.00px;top:221.34px" class="cls_009"><span class="cls_009">seeds. The fruit is 4-7.5 cm in diameter;</span></div>
+<div style="position:absolute;left:36.00px;top:238.74px" class="cls_009"><span class="cls_009">purple fruits are smaller, weighing around</span></div>
+<div style="position:absolute;left:36.00px;top:256.05px" class="cls_009"><span class="cls_009">35 grams, while yellow fruits are closer to</span></div>
+<div style="position:absolute;left:36.00px;top:273.45px" class="cls_009"><span class="cls_009">80 grams. The smooth, leathery rind is 9-</span></div>
+<div style="position:absolute;left:36.00px;top:290.85px" class="cls_009"><span class="cls_009">13 mm thick, including a thick layer of</span></div>
+<div style="position:absolute;left:36.00px;top:308.25px" class="cls_009"><span class="cls_009">pith. Within the berry, there are typically</span></div>
+<div style="position:absolute;left:36.00px;top:325.65px" class="cls_009"><span class="cls_009">250 black seeds, each 2.4 mm in length.</span></div>
+<div style="position:absolute;left:36.00px;top:342.93px" class="cls_009"><span class="cls_009">Each seed is surrounded by a membranous sac filled with pulpy juice. The flavor of the juice</span></div>
+<div style="position:absolute;left:36.00px;top:358.41px" class="cls_009"><span class="cls_009">is slightly acidic and musky.</span></div>
+<div style="position:absolute;left:39.48px;top:386.13px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:242.69px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:278.69px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:314.69px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:350.71px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:386.71px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:422.71px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:458.74px;top:441.35px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:460.55px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 500.000 BOXES</span><span class="cls_002">.</span></div>
+<div style="position:absolute;left:36.00px;top:482.75px" class="cls_007"><span class="cls_007">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:487.19px" class="cls_009"><span class="cls_009">Tº. 45-50 °F /7-10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:510.23px" class="cls_009"><span class="cls_009">Santa Elena, Manabi, Guayas and Los Rios</span></div>
+<div style="position:absolute;left:315.43px;top:512.63px" class="cls_009"><span class="cls_009">85-95% relative humidity</span></div>
+<div style="position:absolute;left:36.00px;top:527.63px" class="cls_009"><span class="cls_009">provinces</span></div>
+<div style="position:absolute;left:315.43px;top:538.19px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:553.19px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:315.43px;top:563.39px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:578.39px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:603.71px" class="cls_009"><span class="cls_009">Boxes X 20 kg.</span></div>
+<div style="position:absolute;left:36.00px;top:629.18px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:654.50px" class="cls_009"><span class="cls_009">Premium Selected</span></div>
+<div style="position:absolute;left:36.00px;top:680.06px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:705.50px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:722.90px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:747.26px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:11914px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background15.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.36px" class="cls_004"><span class="cls_004">PINEAPPLE</span></div>
+<div style="position:absolute;left:324.79px;top:74.70px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:324.79px;top:102.18px" class="cls_008"><span class="cls_008">Ananas Comosus - </span><span class="cls_009">The pineapple variety</span></div>
+<div style="position:absolute;left:324.79px;top:119.58px" class="cls_009"><span class="cls_009">golden sweet or extra sweet, is composed</span></div>
+<div style="position:absolute;left:324.79px;top:136.98px" class="cls_009"><span class="cls_009">of a large crown of green color, with</span></div>
+<div style="position:absolute;left:324.79px;top:154.26px" class="cls_009"><span class="cls_009">narrow leaves and serrated teeth pointed</span></div>
+<div style="position:absolute;left:571.68px;top:170.46px" class="cls_002"><span class="cls_002">14</span></div>
+<div style="position:absolute;left:324.79px;top:171.66px" class="cls_009"><span class="cls_009">little. It is golden in its shell, its pulp is</span></div>
+<div style="position:absolute;left:324.79px;top:189.06px" class="cls_009"><span class="cls_009">extra sweet and yellow.</span></div>
+<div style="position:absolute;left:324.79px;top:240.18px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:191.69px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:231.77px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:271.73px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:311.69px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:351.67px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:391.63px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:431.47px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:471.46px;top:343.17px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:395.25px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:420.45px" class="cls_009"><span class="cls_009">Guayas and Manabi provinces</span></div>
+<div style="position:absolute;left:36.00px;top:446.03px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:471.11px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:496.55px" class="cls_009"><span class="cls_009">Pallet   configuration:</span></div>
+<div style="position:absolute;left:180.93px;top:496.55px" class="cls_009"><span class="cls_009">75-80</span></div>
+<div style="position:absolute;left:36.00px;top:513.95px" class="cls_009"><span class="cls_009">boxes   per   pallet.   Container</span></div>
+<div style="position:absolute;left:36.00px;top:531.23px" class="cls_009"><span class="cls_009">configuration:</span></div>
+<div style="position:absolute;left:152.91px;top:531.23px" class="cls_009"><span class="cls_009">1500-1600</span></div>
+<div style="position:absolute;left:36.00px;top:548.63px" class="cls_009"><span class="cls_009">boxes per container</span></div>
+<div style="position:absolute;left:36.00px;top:574.07px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:599.39px" class="cls_009"><span class="cls_009">MD2</span></div>
+<div style="position:absolute;left:36.00px;top:625.10px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:650.42px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:667.82px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:669.14px" class="cls_021"><span class="cls_021">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:692.90px" class="cls_009"><span class="cls_009">Refrigerated Containers at </span><span class="cls_013">Tº</span><span class="cls_009">50 °F /10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:720.98px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:746.18px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:12765px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background16.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.36px" class="cls_004"><span class="cls_004">PLANTAIN</span></div>
+<div style="position:absolute;left:36.00px;top:74.70px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:102.18px" class="cls_008"><span class="cls_008">Musa  X  Paradisiaca  - </span><span class="cls_009"> Plantains</span></div>
+<div style="position:absolute;left:36.00px;top:119.58px" class="cls_009"><span class="cls_009">contain more starch and less sugar</span></div>
+<div style="position:absolute;left:36.00px;top:136.98px" class="cls_009"><span class="cls_009">than dessert bananas, therefore they</span></div>
+<div style="position:absolute;left:36.00px;top:154.26px" class="cls_009"><span class="cls_009">are  usually  cooked  or  otherwise</span></div>
+<div style="position:absolute;left:571.68px;top:170.46px" class="cls_002"><span class="cls_002">15</span></div>
+<div style="position:absolute;left:36.00px;top:171.66px" class="cls_009"><span class="cls_009">processed before being eaten. They</span></div>
+<div style="position:absolute;left:36.00px;top:189.06px" class="cls_009"><span class="cls_009">are  always  cooked  or  fried  when</span></div>
+<div style="position:absolute;left:36.00px;top:206.46px" class="cls_009"><span class="cls_009">eaten green. At this stage, the pulp is</span></div>
+<div style="position:absolute;left:36.00px;top:223.86px" class="cls_009"><span class="cls_009">hard and the peel often so stiff that it</span></div>
+<div style="position:absolute;left:36.00px;top:241.14px" class="cls_009"><span class="cls_009">has to be cut with a knife to be</span></div>
+<div style="position:absolute;left:36.00px;top:258.57px" class="cls_009"><span class="cls_009">removed.</span></div>
+<div style="position:absolute;left:36.00px;top:284.37px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:132.86px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:168.50px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:204.29px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:239.93px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:275.69px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:311.33px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:347.11px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:382.75px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:418.51px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:454.18px;top:360.57px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:385.77px" class="cls_020"><span class="cls_020">*PROJECTED PRODUCTION FOR CEIBA INTERNATIONAL GROUP 50.000 TONS</span><span class="cls_002">.</span></div>
+<div style="position:absolute;left:36.00px;top:407.73px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:432.95px" class="cls_009"><span class="cls_009">El Oro, Sucumbios and Guayas Provinces</span></div>
+<div style="position:absolute;left:36.00px;top:458.51px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:483.71px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:509.03px" class="cls_009"><span class="cls_009">Boxes X 50 lb.</span></div>
+<div style="position:absolute;left:36.00px;top:534.47px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:560.51px" class="cls_022"><span class="cls_022">P</span><span class="cls_009">remium</span></div>
+<div style="position:absolute;left:36.00px;top:586.43px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:611.90px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:629.30px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:654.38px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:36.00px;top:679.82px" class="cls_009"><span class="cls_009">Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:36.00px;top:705.38px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:315.43px;top:709.22px" class="cls_012"><span class="cls_012">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:730.46px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:13616px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background17.jpg" width=595 height=841></div>
+<div style="position:absolute;left:35.40px;top:6.40px" class="cls_004"><span class="cls_004">SOURSOP</span></div>
+<div style="position:absolute;left:324.07px;top:96.18px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:324.07px;top:123.66px" class="cls_008"><span class="cls_008">Annona Muricata - </span><span class="cls_009">The fruit is more or</span></div>
+<div style="position:absolute;left:324.07px;top:141.06px" class="cls_009"><span class="cls_009">less  oval  or  heart-shaped,  sometimes</span></div>
+<div style="position:absolute;left:324.07px;top:158.46px" class="cls_009"><span class="cls_009">irregular, lopsided or curved. The size</span></div>
+<div style="position:absolute;left:571.68px;top:170.46px" class="cls_002"><span class="cls_002">16</span></div>
+<div style="position:absolute;left:324.07px;top:175.86px" class="cls_009"><span class="cls_009">ranges from 4 to 12 in (10-30 cm) long and</span></div>
+<div style="position:absolute;left:324.07px;top:193.14px" class="cls_009"><span class="cls_009">up to 6 in (15 cm) in width, and the weight</span></div>
+<div style="position:absolute;left:324.07px;top:210.54px" class="cls_009"><span class="cls_009">may be up to 10 or 15 lbs (4.5-6.8 kg). The</span></div>
+<div style="position:absolute;left:324.07px;top:227.94px" class="cls_009"><span class="cls_009">fruit is compound and covered with a</span></div>
+<div style="position:absolute;left:324.07px;top:245.34px" class="cls_009"><span class="cls_009">reticulated, leathery-appearing but tender,</span></div>
+<div style="position:absolute;left:324.07px;top:262.65px" class="cls_009"><span class="cls_009">inedible, bitter skin from which protrude</span></div>
+<div style="position:absolute;left:324.07px;top:280.05px" class="cls_009"><span class="cls_009">few or many stubby, or more elongated</span></div>
+<div style="position:absolute;left:36.00px;top:297.45px" class="cls_009"><span class="cls_009">and curved, soft, pliable "spines". The skin become slightly yellowish-green when it is mature</span></div>
+<div style="position:absolute;left:36.00px;top:314.85px" class="cls_009"><span class="cls_009">and the fruit is soft to the touch. Its inner surface is cream-colored and granular</span></div>
+<div style="position:absolute;left:36.00px;top:340.53px" class="cls_007"><span class="cls_007">Product</span></div>
+<div style="position:absolute;left:36.00px;top:360.45px" class="cls_007"><span class="cls_007">Availability</span></div>
+<div style="position:absolute;left:160.82px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:197.21px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:233.57px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:452.02px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:488.50px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:524.86px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:561.22px;top:397.53px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:455.63px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:455.63px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:480.83px" class="cls_009"><span class="cls_009">Manabi, Guayas, Los Rios, Sucumbios and</span></div>
+<div style="position:absolute;left:315.43px;top:480.83px" class="cls_009"><span class="cls_009">Guayaquil/Manta</span></div>
+<div style="position:absolute;left:36.00px;top:498.11px" class="cls_009"><span class="cls_009">Orellana Provinces</span></div>
+<div style="position:absolute;left:36.00px;top:523.79px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:548.87px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:574.31px" class="cls_009"><span class="cls_009">Unit packaging according to size</span></div>
+<div style="position:absolute;left:36.00px;top:599.63px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:624.98px" class="cls_009"><span class="cls_009">Fresh selected</span></div>
+<div style="position:absolute;left:36.00px;top:650.66px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:675.98px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:693.38px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:718.58px" class="cls_009"><span class="cls_009">Store in a dry place</span></div>
+<div style="position:absolute;left:315.43px;top:743.54px" class="cls_012"><span class="cls_012">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:36.00px;top:743.90px" class="cls_009"><span class="cls_009">Tº. 50 °F /10 °C</span></div>
+<div style="position:absolute;left:223.61px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:14467px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background18.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.36px" class="cls_004"><span class="cls_004">STEVIA</span></div>
+<div style="position:absolute;left:36.00px;top:72.16px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:358.63px;top:127.62px" class="cls_008"><span class="cls_008">Stevia Rebandiana - </span><span class="cls_009">also called</span></div>
+<div style="position:absolute;left:358.63px;top:144.90px" class="cls_009"><span class="cls_009">sweet leaf. Stevia is a sweetener and</span></div>
+<div style="position:absolute;left:358.63px;top:162.30px" class="cls_009"><span class="cls_009">sugar  substitute  made  from  the</span></div>
+<div style="position:absolute;left:571.68px;top:170.46px" class="cls_002"><span class="cls_002">17</span></div>
+<div style="position:absolute;left:358.63px;top:179.70px" class="cls_009"><span class="cls_009">leaves of the plant species </span><span class="cls_023">Stevia</span></div>
+<div style="position:absolute;left:358.63px;top:197.10px" class="cls_023"><span class="cls_023">rebaudiana</span><span class="cls_009">. It can be more than 300</span></div>
+<div style="position:absolute;left:358.63px;top:214.38px" class="cls_009"><span class="cls_009">times sweeter than table sugar and</span></div>
+<div style="position:absolute;left:358.63px;top:231.78px" class="cls_009"><span class="cls_009">are nonglycemic (i.e., they do not</span></div>
+<div style="position:absolute;left:358.63px;top:249.18px" class="cls_009"><span class="cls_009">affect blood glucose levels). Touted</span></div>
+<div style="position:absolute;left:358.63px;top:266.61px" class="cls_009"><span class="cls_009">as a healthier alternative to sugar.</span></div>
+<div style="position:absolute;left:358.63px;top:284.01px" class="cls_009"><span class="cls_009">Stevia is natural, unlike other sugar</span></div>
+<div style="position:absolute;left:358.63px;top:301.29px" class="cls_009"><span class="cls_009">substitutes.</span></div>
+<div style="position:absolute;left:36.00px;top:327.09px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:79.82px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:119.42px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:159.02px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:198.65px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:238.25px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:277.85px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:317.47px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:357.07px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:396.67px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:436.27px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:475.90px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:515.50px;top:403.05px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:447.47px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:315.43px;top:447.47px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:472.55px" class="cls_009"><span class="cls_009">Santa Elena Province</span></div>
+<div style="position:absolute;left:315.43px;top:472.55px" class="cls_009"><span class="cls_009">Guayaquil</span></div>
+<div style="position:absolute;left:36.00px;top:498.23px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:36.00px;top:523.31px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:36.00px;top:548.75px" class="cls_009"><span class="cls_009">Blocks of 25kg.</span></div>
+<div style="position:absolute;left:36.00px;top:574.07px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:599.51px" class="cls_009"><span class="cls_009">Dry selected</span></div>
+<div style="position:absolute;left:36.00px;top:625.10px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:36.00px;top:650.42px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:36.00px;top:667.82px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:36.00px;top:693.02px" class="cls_009"><span class="cls_009">Store in a dry place with ventilation</span></div>
+<div style="position:absolute;left:315.43px;top:719.90px" class="cls_012"><span class="cls_012">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:15318px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2352ebf2-e44b-11e8-b403-0cc47a792c0a_id_2352ebf2-e44b-11e8-b403-0cc47a792c0a_files/background19.jpg" width=595 height=841></div>
+<div style="position:absolute;left:43.20px;top:4.36px" class="cls_004"><span class="cls_004">YUCA</span></div>
+<div style="position:absolute;left:36.00px;top:72.16px" class="cls_007"><span class="cls_007">Variety/Type Descriptions</span></div>
+<div style="position:absolute;left:36.00px;top:99.66px" class="cls_008"><span class="cls_008">Manihot Esculenta - </span><span class="cls_009">The starchy</span></div>
+<div style="position:absolute;left:36.00px;top:117.06px" class="cls_009"><span class="cls_009">flesh of the yuca root is a light</span></div>
+<div style="position:absolute;left:36.00px;top:134.46px" class="cls_009"><span class="cls_009">white or cream color with a grainy</span></div>
+<div style="position:absolute;left:36.00px;top:151.86px" class="cls_009"><span class="cls_009">texture similar to potatoes. The</span></div>
+<div style="position:absolute;left:36.00px;top:169.26px" class="cls_009"><span class="cls_009">meaty flesh is often described as</span></div>
+<div style="position:absolute;left:36.00px;top:186.54px" class="cls_009"><span class="cls_009">having a mild, sweet, somewhat</span></div>
+<div style="position:absolute;left:36.00px;top:203.94px" class="cls_009"><span class="cls_009">nutty   taste.   Yuca   is   high   in</span></div>
+<div style="position:absolute;left:36.00px;top:221.34px" class="cls_009"><span class="cls_009">carbohydrates and low in saturated</span></div>
+<div style="position:absolute;left:36.00px;top:238.74px" class="cls_009"><span class="cls_009">fat, cholesterol and sodium. It is a</span></div>
+<div style="position:absolute;left:36.00px;top:256.05px" class="cls_009"><span class="cls_009">good  source  of  manganese  and</span></div>
+<div style="position:absolute;left:36.00px;top:273.45px" class="cls_009"><span class="cls_009">vitamin C. You can prepare it in</span></div>
+<div style="position:absolute;left:36.00px;top:290.85px" class="cls_009"><span class="cls_009">the same way you would a baked</span></div>
+<div style="position:absolute;left:36.00px;top:308.25px" class="cls_009"><span class="cls_009">potato, though it’s important to remove the skin first.</span></div>
+<div style="position:absolute;left:36.00px;top:333.93px" class="cls_007"><span class="cls_007">Product Availability</span></div>
+<div style="position:absolute;left:79.82px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:119.42px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:159.02px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:198.65px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:238.25px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:277.85px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:317.47px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:357.07px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:396.67px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:436.27px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:475.90px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:515.50px;top:409.89px" class="cls_017"><span class="cls_017"></span></div>
+<div style="position:absolute;left:36.00px;top:459.71px" class="cls_010"><span class="cls_010">Origin of Product</span></div>
+<div style="position:absolute;left:36.00px;top:484.79px" class="cls_009"><span class="cls_009">Manabi, Sucumbios and Orellana</span></div>
+<div style="position:absolute;left:315.43px;top:484.79px" class="cls_011"><span class="cls_011">Grades:</span></div>
+<div style="position:absolute;left:36.00px;top:502.19px" class="cls_009"><span class="cls_009">Provinces</span></div>
+<div style="position:absolute;left:315.43px;top:510.23px" class="cls_009"><span class="cls_009">Fresh selected</span></div>
+<div style="position:absolute;left:315.43px;top:535.79px" class="cls_010"><span class="cls_010">Storing and Handling</span></div>
+<div style="position:absolute;left:315.43px;top:561.23px" class="cls_010"><span class="cls_010">Temperature/humidity</span></div>
+<div style="position:absolute;left:315.43px;top:578.63px" class="cls_010"><span class="cls_010">recommendations:</span></div>
+<div style="position:absolute;left:315.43px;top:603.71px" class="cls_009"><span class="cls_009">Tº. 60-65 °F /16-18 °C</span></div>
+<div style="position:absolute;left:315.43px;top:629.06px" class="cls_009"><span class="cls_009">85-95% relative humidity</span></div>
+<div style="position:absolute;left:315.43px;top:654.50px" class="cls_009"><span class="cls_009">Keep it in a well-ventilated area</span></div>
+<div style="position:absolute;left:36.00px;top:664.10px" class="cls_010"><span class="cls_010">Ordering Specifications</span></div>
+<div style="position:absolute;left:315.43px;top:680.06px" class="cls_010"><span class="cls_010">Shipping Port</span></div>
+<div style="position:absolute;left:36.00px;top:689.30px" class="cls_011"><span class="cls_011">Common Packaging:</span></div>
+<div style="position:absolute;left:315.43px;top:705.26px" class="cls_009"><span class="cls_009">Guayaquil</span></div>
+<div style="position:absolute;left:36.00px;top:714.62px" class="cls_009"><span class="cls_009">Boxes of 25kg.</span></div>
+<div style="position:absolute;left:315.43px;top:735.86px" class="cls_012"><span class="cls_012">*Call for quote at your destination</span></div>
+<div style="position:absolute;left:224.21px;top:791.56px" class="cls_002"><span class="cls_002"> </span><A HREF="http://www.ceibatrade.com/">www.ceibatrade.com</A> </div>
+</div>
+
+</body>
+</html>
